@@ -1,0 +1,110 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../lib/src/vehicle.d.ts": {
+        "version": "9c7ad4f858eb0e5eb747300e69232d242b17787e9c0be1eef6b2850303a6c3fc",
+        "signature": "9c7ad4f858eb0e5eb747300e69232d242b17787e9c0be1eef6b2850303a6c3fc",
+        "affectsGlobalScope": false
+      },
+      "../lib/src/car.d.ts": {
+        "version": "356daecdcb6bce48247d00f51816c5e8ea65fe35f60cb57b311799ba29d18573",
+        "signature": "356daecdcb6bce48247d00f51816c5e8ea65fe35f60cb57b311799ba29d18573",
+        "affectsGlobalScope": false
+      },
+      "../lib/src/bike.d.ts": {
+        "version": "972b5c9e27fe7a5c2ba6c43f172a5a7444b1018247afb679e9b0f775470a6835",
+        "signature": "972b5c9e27fe7a5c2ba6c43f172a5a7444b1018247afb679e9b0f775470a6835",
+        "affectsGlobalScope": false
+      },
+      "../lib/src/index.d.ts": {
+        "version": "3da2c23e778672e1ec0ce886465846a7cb8f16e0cb183ec77277ab0fbbed7f10",
+        "signature": "3da2c23e778672e1ec0ce886465846a7cb8f16e0cb183ec77277ab0fbbed7f10",
+        "affectsGlobalScope": false
+      },
+      "./parking.ts": {
+        "version": "f941ada9b62923bffe6e934938611b4c730346ec08bc771e63b7455d6a870c9b",
+        "signature": "ecefaecac1980dc3804dd558564000b0f1fc8a8b603f9c928ef5e3798dda0b2e",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "declaration": true,
+      "target": 1,
+      "module": 1,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "composite": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "../lib/src/bike.d.ts": [
+        "../lib/src/vehicle.d.ts"
+      ],
+      "../lib/src/car.d.ts": [
+        "../lib/src/vehicle.d.ts"
+      ],
+      "../lib/src/index.d.ts": [
+        "../lib/src/bike.d.ts",
+        "../lib/src/car.d.ts",
+        "../lib/src/vehicle.d.ts"
+      ],
+      "./parking.ts": [
+        "../lib/src/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../lib/src/bike.d.ts": [
+        "../lib/src/vehicle.d.ts"
+      ],
+      "../lib/src/car.d.ts": [
+        "../lib/src/vehicle.d.ts"
+      ],
+      "../lib/src/index.d.ts": [
+        "../lib/src/bike.d.ts",
+        "../lib/src/car.d.ts",
+        "../lib/src/vehicle.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../lib/src/bike.d.ts",
+      "../lib/src/car.d.ts",
+      "../lib/src/index.d.ts",
+      "../lib/src/vehicle.d.ts",
+      "./node_modules/typescript/lib/lib.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./parking.ts"
+    ]
+  },
+  "version": "4.2.3"
+}
